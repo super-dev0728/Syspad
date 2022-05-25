@@ -1,0 +1,84 @@
+.landing-parents {
+  background-color: #002a5b;
+}
+.banerNav {
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-two-button {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.top-two-button .btn,
+.top-two-button button {
+  border: 1px solid #00addb;
+  border-radius: 100px;
+  padding: 5px 13px 5px 13px;
+}
+
+.topButtonOne button {
+  margin-right: 10px;
+  background: linear-gradient(to bottom, #00addb -17.94%, #4747ff 120.73%);
+  color: white;
+}
+
+.topButtonOne img {
+  margin-top: -5px;
+  margin-right: 5px;
+}
+
+.topButtonTwo button {
+  background-color: white;
+}
+
+.topButtonTwo img {
+  margin-top: -5px;
+  margin-right: 3px;
+}
+
+.landingPage {
+  background-color: #002a5b;
+  background-image: url("../../Assets/landingPage/cover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  padding-bottom: 10%;
+  /* height: 150vh; */
+}
+
+.banner-text h1 {
+  background: linear-gradient(to bottom, #00addb 30.05%, #2424ea 79.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: -0.019em;
+}
+
+.banner-text p {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.019em;
+}
+
+@media only screen and (max-width: 979px) {
+  .top-two-button {
+    margin-right: 20px;
+  }
+
+  .banner-img img {
+    width: 270px;
+  }
+}

@@ -1,0 +1,72 @@
+.leaderBoardPage {
+    background-color: #002A5B;
+    background-image: url('../../Assets/landingPage/cover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+
+.leaderBoardPage h1 {
+    background: linear-gradient(to bottom, #00ADDB 35%, #2424EA 79.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 50px;
+    /* line-height: 77px; */
+    text-align: center;
+    letter-spacing: -0.019em;
+}
+
+.allData {
+    color: white;
+    background-color: #002A5B;
+    border-radius: 10px;
+    padding-top: 20px;
+    text-align: left;
+}
+.dataStyle {  
+    padding: 10px 0 10px 0;
+}
+
+.id-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.name-time {
+    text-align: left;
+}
+
+.viewDetailButton button {
+    background: linear-gradient(to bottom, #00ADDB -17.94%, #4747FF 120.73%);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.019em;
+}
+
+@media only screen and (max-width:768px) {
+    .leaderBoardPage {
+        height: auto;
+    }
+    .id-image{
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .id-image img{
+       
+     padding-left: 20px;
+    }
+    .allData {
+       padding-left: 5%;
+    }
+}

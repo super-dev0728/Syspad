@@ -1,0 +1,35 @@
+
+.step4-network-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+}
+.legionNet-img{
+    width:100px;
+    margin-right: 5px;
+}
+.tokenDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+    background-color: #0751A8;
+}
+.tokenDetails-odd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+   
+}
+.tokenDetails p{
+   width: 50%;
+   text-align: left;
+}
+.tokenDetails-odd p{
+   width: 50%;
+   text-align: left;
+}

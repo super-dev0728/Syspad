@@ -1,0 +1,80 @@
+.documentation-cover {
+    background-color: #002A5B;
+    background-image: url('../Assets/documentation/documentationCover.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+
+}
+
+.docTextArea {
+    text-align: left;
+    margin-top: 5%;
+}
+
+.h4-h2-style {
+    padding-bottom: 40px;
+}
+
+.h4-h2-style h4 {
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+
+}
+
+.h4-h2-style h2 {
+    font-weight: 700;
+    font-size: 54px;
+    margin-top: -10px;
+    letter-spacing: -0.019em;
+    background: linear-gradient(158.93deg, #00ADDB 19.05%, #2424EA 79.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.doc-p-area {
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+hr {
+    width: 20%;
+    background-color: #0086CF;
+    border-radius: 24px;
+    border: 3px solid #0086CF;
+}
+.doc-img-area{
+    margin-top: 25%;
+}
+.doc-img-area img{
+    /* height: 350px; */
+    width: 100%;
+}
+.docButton button{
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    border: 1px solid #1989E8;
+border-radius: 14px;
+padding: 10px 20px 10px 20px;
+margin-top: 18%;
+margin-left: 60%;
+}
+.btnInsideText{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.btnInsideText img{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+}
+@media only screen and (max-width:768px){
+    .docButton {
+        margin-left: -50%;
+    }
+}

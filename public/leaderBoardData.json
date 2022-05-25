@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "image":"../src/Component/Assets/leaderBoard/one.png",
+        "name": "Jump Satoshi Token JST",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 2,
+        "image":"../src/Component/Assets/leaderBoard/two.png",
+        "name": "Lanuna Finance LUNU",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 3,
+        "image":"../src/Component/Assets/leaderBoard/three.png",
+        "name": "LuckyDoge LuckyDoge",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 4,
+        "image":"../src/Component/Assets/leaderBoard/four.png",
+        "name": "GalaxyPad GXPAD",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 5,
+        "image":"../src/Component/Assets/leaderBoard/five.png",
+        "name": "Aufin AUN",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 6,
+        "image":"../src/Component/Assets/leaderBoard/six.png",
+        "name": "MORFY MRFY",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 7,
+        "image":"../src/Component/Assets/leaderBoard/seven.png",
+        "name": "Kingdom Swap 2.0 KS2",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 8,
+        "image":"../src/Component/Assets/leaderBoard/eight.png",
+        "name": "ApeClockToken APEC",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 9,
+        "image":"../src/Component/Assets/leaderBoard/nine.png",
+        "name": "Cashera CSR",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      },
+    {
+        "id": 10,
+        "image":"../src/Component/Assets/leaderBoard/ten.png",
+        "name": "Will Liu Liu",
+        "listingTime": "Listing time: 2022.04.25 19:48",
+        "raised": "9,028.184383576405 BNB"
+      }
+]

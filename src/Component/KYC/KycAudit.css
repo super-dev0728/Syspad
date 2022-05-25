@@ -1,0 +1,64 @@
+.kycBackgroundImage{
+    /* background-color: #002A5B; */
+    background-image: url('../Assets/KYC&Audit/seconBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: contain; */
+    /* background-blend-mode:darken; */
+    /* height: 100vh; */
+    height: auto;
+    padding-bottom: 20px;
+
+}
+.full-kyc-area {
+    padding-top: 4%;
+}
+
+.kyc-text {
+text-align: left;
+background-color: #002A5B;
+padding: 5%;
+border-radius: 20px;
+}
+
+
+.kyc-text h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    padding-top: 40px;
+}
+
+.kyc-text p {
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+
+.full-kyc-area h2 {
+    background: linear-gradient(to bottom, #00ADDB 50%, #2424EA 79.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -0.019em;
+}
+
+.kyc-img {
+   width: 100%;
+   max-width: 82%;
+}
+@media only screen and (max-width:768px) {
+    .kyc-text {
+        padding: 3%;
+        }
+        .kyc-img {
+            margin-top: 20px;
+            width: 100%;
+            max-width: 100%;
+         }
+}

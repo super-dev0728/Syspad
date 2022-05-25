@@ -1,0 +1,73 @@
+.dashboard-appbar{
+    background-color:#002A5B;
+    padding-top: 28px;
+    padding-bottom: 18px;
+}
+.appbar-elements{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-name{
+    display: flex;
+    justify-content: flex-end;
+    color: #eee;
+}
+.user-name span{
+    font-weight: 700;
+    color: #fff;
+}
+.user-name i{
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    background-color:#064d9f ;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.dash-logo{
+    width: 60%;
+}
+.dashboard-nav{
+position: relative;
+}
+.list-group-item.active{
+    position: relative ;
+    background-color:transparent;
+    color:#0d61f0;
+    /* padding: 0; */
+    border:none;
+    transition: 1s;
+}
+.list-group-item{
+    position: relative ;
+    background-color:transparent;
+    color: #888;
+    padding: 0 20px;
+    border:none;
+    margin-bottom: -5px;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 1s;
+}
+.list-group-item.active::after{
+    position: absolute ;
+    content: '';
+    height: 4px;
+    width: 68%;
+    background-color: #0d61f0;
+    left: 16%;
+    bottom: -20px;
+    transition: 1s;
+}
+.kycbtn{
+    border: none;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #ddd;
+}

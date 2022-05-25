@@ -1,0 +1,177 @@
+.buyToken-page{
+    background-color:#022041 ;
+}
+.tokenPage-left{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5%;
+}
+.page-heading{
+    text-align: left;
+}
+.page-heading h2{
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+}
+.page-heading p{
+    color: #000;
+}
+.token-list{
+    background-color: #EAF5FF;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1989E8;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.token-list span{
+  font-weight: 600;
+}
+.amonut-contribute-btn{
+    background-color: #022041;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid #1989E8;
+    padding: 5px 10px;
+    position: relative;
+    padding-left: 20px;
+    width: 180px;
+}
+.sys{
+    position:relative;
+    right: 50px;
+    color: #aaa;
+    /* margin-right: -20px; */
+}
+.token-comp{
+    display: flex;
+}
+.table-summary{
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    /* text-align: left; */
+    padding: 20px 0;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.make-payment-btn{
+    border: none;
+    outline: none;
+    background: linear-gradient(164.72deg, #00ADDB -17.94%, #4747FF 120.73%);
+    border-radius: 100px;
+    color: #fff;
+    padding: 8px 20px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+.progress-bar::after{
+    content: '25%' !important;
+    position: relative; 
+    left: 85% !important;
+    /* color: #000 !important; */
+    height: 20px;
+    width: 10px;
+    /* z-index: 99 !important; */
+    /* background-color: #000; */
+}
+.left-card-one{
+background: linear-gradient(164.72deg, #21EDA3 -17.94%, #15BEA0 120.73%);
+border-radius:20px;
+}
+.left-card-one h4{
+  color: #fff;
+  padding: 40px 5%;
+  font-size: 20px;
+}
+.divider{
+    font-size: 12px;
+    
+}
+.divider{
+    font-size: 12px;
+    position: relative;
+    margin-top:20px ;
+}
+.divider::before{
+    content: "";
+    width: 100%;
+    height: .5px;
+    background-color: rgba(245, 238, 238, 0.653);
+    position: absolute;
+    top: -10px;
+}
+.left-card-two{
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.divider-b{
+    font-size: 12px;
+    position: relative;
+    margin-top:20px ;
+    color: #777;
+}
+.divider-b::before{
+    content: "";
+    width: 100%;
+    height: .5px;
+    background-color: rgba(137, 131, 131, 0.512);
+    position: absolute;
+    top: -5px;
+}
+.sale-card{
+    background-color: #c3dff89a;
+    text-align: start;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    margin-top: 20px;
+
+}
+.sale-card h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+.sels-end{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.timer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: -5%;
+}
+.timer span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.day-counter{
+    margin-right:2.5%;
+}
+.timer li{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-color: #00ADDB;
+   height: 80px;
+   width: 80px;
+   border-radius: 10px;
+}
