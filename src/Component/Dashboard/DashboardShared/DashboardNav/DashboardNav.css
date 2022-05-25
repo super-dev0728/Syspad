@@ -17,7 +17,7 @@
     font-weight: 700;
     color: #fff;
 }
-.user-name i{
+.user-name .profileIcon{
     color: #fff;
     height: 45px;
     width: 45px;
@@ -29,11 +29,26 @@
     margin-left: 10px;
     margin-top: -10px;
 }
+.profileIcon i{
+    margin-bottom: 15px;
+    cursor: pointer;
+}
 .dash-logo{
     width: 60%;
 }
 .dashboard-nav{
 position: relative;
+}
+.navbar-toggler-icon{
+    color: #002A5B !important;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    /* background-color: #002A5B !important; */
+}
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
 }
 .list-group-item.active{
     position: relative ;
@@ -54,6 +69,25 @@ position: relative;
     font-weight: 400;
     transition: 1s;
 }
+.dashboard-btn{
+    position: relative;
+    color: #888;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+.dashboard-btn:focus::after{
+    position: absolute ;
+    content: '';
+    height: 4px;
+    width: 100px;
+    background-color: #0d61f0;
+    left: 0;
+    width: 100%;
+    /* left: 0; */
+    bottom: -14px;
+}
 .list-group-item.active::after{
     position: absolute ;
     content: '';
@@ -61,7 +95,7 @@ position: relative;
     width: 68%;
     background-color: #0d61f0;
     left: 16%;
-    bottom: -20px;
+    bottom: -17.5px;
     transition: 1s;
 }
 .kycbtn{
@@ -70,4 +104,37 @@ position: relative;
     border-radius: 10px;
     font-weight: 700;
     background-color: #ddd;
+}
+@media only screen and (max-width:979px){
+    .list-group-item.active::after{
+        position: absolute ;
+        content: '';
+        height: 2.5px;
+        width: 88px;
+        background-color: #0d61f0;
+        left: 20px;
+        bottom: 18px;
+        transition: 1s;
+        margin-bottom: -20px;
+    }
+    .list-group-item{
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    .dashboard-btn{
+        display: flex;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .dashboard-btn:focus::after{
+        position: absolute ;
+        content: '';
+        height: 2.5px;
+        background-color: #0d61f0;
+        left: 0;
+        width: 100px;
+        left: 20px;
+        /* left: 0; */
+        bottom: 0px;
+    }
 }

@@ -16,13 +16,14 @@ import imageTen from '../../Assets/LanchPads/image 10.png';
 import imageEleven from '../../Assets/LanchPads/image 11.png';
 import imageTwenty from '../../Assets/LanchPads/image 12.png';
 import './LaunchPadList.css'
+import { Link } from 'react-router-dom';
 
 const LaunchPadList = () => {
     return (
         <div>
             <div className='banerNav'>
                 <div>
-                    <Navigation/>
+                    <Navigation />
                 </div>
                 <div className='top-two-button'>
                     <div className='topButtonOne'>
@@ -35,7 +36,7 @@ const LaunchPadList = () => {
                 </div>
             </div>
             <div className='lunchpad-list-wraper'>
-            <div className='banner-text  landingPage pb-3'>
+                <div className='banner-text  landingPage pb-3'>
                     {/* <div className='pt-4'></div> */}
                     <h1 className='pt-5'>SYSPAD Launchpad</h1>
                     <p>Max Stakers gain exclusive access to SYSPAD Launch, which offers customized <br /> Launches tailored to our community.</p>
@@ -43,46 +44,49 @@ const LaunchPadList = () => {
                 <div className='list-card'>
                     <Row className='m-0'>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageOne} alt="" className='img-fluid'/>
+                            <Link to='/legionnetTwo'>
+                                <img src={imageOne} alt="" className='img-fluid' />
+                            </Link>
+                            
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageTwo} alt="" className='img-fluid'/>
+                            <img src={imageTwo} alt="" className='img-fluid' />
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageThree} alt="" className='img-fluid'/>
+                            <img src={imageThree} alt="" className='img-fluid' />
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageFour} alt="" className='img-fluid'/>
-                        </Col>
-                    </Row>
-                  
-                    <Row className='m-0'>
-                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageFive} alt="" className='img-fluid'/>
-                        </Col>
-                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageSix} alt="" className='img-fluid'/>
-                        </Col>
-                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageSeven} alt="" className='img-fluid'/>
-                        </Col>
-                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageEight} alt="" className='img-fluid'/>
+                            <img src={imageFour} alt="" className='img-fluid' />
                         </Col>
                     </Row>
-                    
+
                     <Row className='m-0'>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageNine} alt="" className='img-fluid'/>
+                            <img src={imageFive} alt="" className='img-fluid' />
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageTen} alt="" className='img-fluid'/>
+                            <img src={imageSix} alt="" className='img-fluid' />
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageEleven} alt="" className='img-fluid'/>
+                            <img src={imageSeven} alt="" className='img-fluid' />
                         </Col>
                         <Col className='col-12 col-md-3 col-sm-6 g-3'>
-                            <img src={imageTwenty} alt="" className='img-fluid'/>
+                            <img src={imageEight} alt="" className='img-fluid' />
+                        </Col>
+                    </Row>
+
+                    <Row className='m-0'>
+                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
+                            <img src={imageNine} alt="" className='img-fluid' />
+                        </Col>
+                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
+                            <img src={imageTen} alt="" className='img-fluid' />
+                        </Col>
+                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
+                            <img src={imageEleven} alt="" className='img-fluid' />
+                        </Col>
+                        <Col className='col-12 col-md-3 col-sm-6 g-3'>
+                            <img src={imageTwenty} alt="" className='img-fluid' />
                         </Col>
                     </Row>
                 </div>

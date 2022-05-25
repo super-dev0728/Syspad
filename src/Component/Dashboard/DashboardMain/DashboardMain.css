@@ -1,4 +1,159 @@
-.dashboard-main{
-    background-color:#022041;
-    padding-bottom: 100vh;
+.dashboard-main {
+    background-color: #022041;
+}
+
+.new-hr-tag {
+    width: 100%;
+    margin-top: 0px;
+    border: 1px solid white;
+    background-color: white;
+
+}
+
+.frist-box {
+    border-radius: 16px;
+    margin-top: 30px;
+    background-color: #63A9E5;
+    text-align: left;
+
+}
+.tokenBalance {
+    display: flex;
+}
+
+.tokenBalance h2 {
+    font-weight: 400 !important;
+    font-size: 20px !important;
+
+}
+
+.tokenBalance h3 {
+    font-weight: bolder;
+}
+
+.usd-eth-btc h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tokenBalance img {
+    width: 60px;
+}
+.img-two{
+    height: 55px;
+    width: 55px;
+    background-color: #E3F2F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.img-two img {
+    width: 100%;
+    /* padding: 10px; */
+    /* border-radius: 50; */
+    
+}
+
+
+.token-text {
+    margin-left: 8%;
+}
+
+.token-text h3 {
+    color: black;
+    font-weight: bolder;
+}
+
+.second-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 16px;
+    margin-top: 30px;
+
+    text-align: left;
+}
+
+.two-button-style {
+    display: flex;
+
+}
+
+.tokenBalance h2 {
+    font-weight: 300;
+    font-size: 30px;
+    color: black;
+}
+
+.tokenBalance h3 {
+    font-weight: bolder;
+    color: #63A9E5;
+}
+
+.second-box button {
+    background-color: #00D18C;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.second-hr-tag {
+    width: 100%;
+    border: 1px solid #1989E8;
+    background-color: #1989E8;
+}
+
+.Button-bottom-style button {
+    background-color: #63A9E5;
+    color: white;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.thrid-img {
+    background-color: #022041;
+    height: 23%;
+    border-radius: 100%;
+}
+
+.thrid-grid {
+    display: flex;
+}
+
+
+/* second part desing  */
+.interestOnSyspad {
+    margin-top: -30px;
+}
+
+.syspad-text-img {
+    display: flex;
+    text-align: left;
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    border-radius: 16px;
+    padding: 10px 0px 15px 20px;
+}
+.syspad-text-img h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+.syspad-text-img button {
+    background-color: #63A9E5;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 2px 10px 2px 10px;
+}
+.scrollBar{
+    width: 95%;
+    margin-top: 15px;
+    margin-bottom: -15px;
 }

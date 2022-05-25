@@ -51,6 +51,7 @@ border-radius: 20px;
 .kyc-img {
    width: 100%;
    max-width: 82%;
+   height: 100%;
 }
 @media only screen and (max-width:768px) {
     .kyc-text {

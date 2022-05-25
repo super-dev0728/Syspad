@@ -1,0 +1,213 @@
+.profileNavArea{
+   background-color: #E8ECF1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border-radius: 13px;
+   /* padding: 15px; */
+}
+
+.profileNavArea .inactiveProfile{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 33.33%;
+    padding: 10px 0;
+    padding-bottom: 12px;
+    /* border-radius: 20px; */
+    color: #888;
+       
+}
+.activeProfile{
+    background-color:#00ADDB ;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    border-radius: 13px;
+    color: #FFF;
+    width:33.33%;
+}
+.personal-data-btn:focus{
+  background-color:#00ADDB ;
+  padding: 8px 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  color: #FFF;
+  width:33.33%;
+}
+
+@media only screen and (max-width:979px) {
+    .profileNavArea{
+        flex-direction: column;
+        justify-content: center;
+        padding: 15px;
+     }
+     .profileNavArea .active ,.inactive{
+        width: 200px;
+        padding:10px;   
+        margin-top: 8px;   
+    }
+ 
+}
+
+/* Profile detail three styles ------------------------------ */
+
+
+/* twoFactor verification  */
+.twoFactor{
+    background-color: white;
+    border-radius: 16px;
+    margin-top: -13px;
+    text-align: left;
+    padding: 20px;
+}
+.twoFactor h1{
+    background: linear-gradient(158.93deg, #00ADDB -10%, #2424EA 79.17%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   font-size: 25px;
+    font-weight: 700;
+    
+}
+.twoFactor p{
+    font-size: 15px;
+    margin-top: 3%;
+}
+
+
+/* personal Data  */
+.presonalData{
+    text-align: left;
+}
+.presonalData h5{
+    font-size: 17px;
+    margin-top: 25px; 
+}
+.presonalData input{
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #00ADDB;
+    border-bottom: 1px solid #0d6ddb;
+    padding: 5px 0 5px 15px;
+    outline: none;
+}
+.nationality-input{
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #00ADDB;
+    border-bottom: 1px solid #0d6ddb;
+    padding: 5px 0 5px 15px;
+    outline: none;
+}
+ /* passwprd  */
+ .passwprdHr{
+     width: 98%;
+     margin-left: 2%;
+     margin-top: 3%;
+     
+     color: rgb(31, 28, 28) !important;
+     border: none;
+ }
+ /* settings  */
+ .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .settingStyle{
+      text-align: left;
+  }
+  .slider-text{
+      display: flex;
+     
+  }
+.slider-text p{
+    margin-left: 30px;
+    margin-top: 5px;
+    font-weight: 500;
+    /* font-size: 18px; */
+}
+
+.copy-past-section{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.copy-past-section input{
+   width: 100%;
+   padding: 3px;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid #00ADDB;
+    border-bottom: 1px solid #0d6ddb;
+   padding-left: 5px;
+}
+.copy-past-section button{
+    position: absolute;
+    padding: 0;
+    color: #444;
+    right: 5px;
+    background-color: transparent;
+    background-color: #fff;
+
+   
+}
+.verificationBTN{
+  background: linear-gradient(164.72deg, #00ADDB -17.94%, #4747fff3 120.73%);
+    padding: 2% 30% 2% 30% !important;
+}

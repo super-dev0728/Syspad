@@ -5,6 +5,7 @@
     padding-bottom: 20px;
     background-size: contain;
 }
+
 .syspad-page-desing h1 {
     margin-top: -18%;
     margin-bottom: 40px;
@@ -16,9 +17,10 @@
     font-size: 32px;
     letter-spacing: -0.019em;
 }
+
 .syspad-page-desing h2 {
-   margin: 40px 0 40px 0;
-    background: linear-gradient(to bottom, #00ADDB 40%, #2424EA 80%);
+    margin: 40px 0 40px 0;
+    background: linear-gradient(158.93deg, #00ADDB 19.05%, #2424EA 79.17%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -26,33 +28,47 @@
     font-size: 32px;
     letter-spacing: -0.019em;
 }
-.heading-video{
+
+.heading-video {
     position: relative;
     top: -60px !important;
 }
 
-.vedio-desing video{
+.vedio-desing video {
     width: 70%;
     border-radius: 20px;
     padding: 10px;
+    margin-top: -30px;
 }
-@media only screen and (max-width:992px){
-    .heading-video{
+
+.latestNews h2 {
+    margin-top: -25px;
+    margin-bottom: 70px;
+}
+
+@media only screen and (max-width:992px) {
+    .heading-video {
         position: relative;
         top: -30px !important;
-    } 
+    }
+    .vedio-desing video {
+        width: 95%;
+        
+    }
 }
-.bottom-text{
-font-weight: 600;
-font-size: 16px;
 
-letter-spacing: -0.019em;
+.bottom-text {
+    font-weight: 600;
+    font-size: 16px;
 
-color: #E1E1E1;
+    letter-spacing: -0.019em;
+
+    color: #E1E1E1;
 }
+
 @media only screen and (max-width:979px) {
-    .syspad-page-desing img{
-       
+    .syspad-page-desing img {
+
         width: 270px;
     }
 }

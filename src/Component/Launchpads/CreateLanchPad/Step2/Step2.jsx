@@ -38,7 +38,7 @@ const Step2 = () => {
                     <span className='launchNum'>01</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small>Enter the token address and verify</small>
+                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -47,7 +47,7 @@ const Step2 = () => {
                     <span className='launchNum'>02</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small>Enter the token address and verify</small>
+                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -56,7 +56,7 @@ const Step2 = () => {
                     <span className='launchNum in-active'>03</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small>Enter the token address and verify</small>
+                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -65,7 +65,7 @@ const Step2 = () => {
                     <span className='launchNum in-active'>04</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small>Enter the token address and verify</small>
+                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
                     </div>
                     {/* <span className='dot-line ms-2'></span>   */}
                  </div>

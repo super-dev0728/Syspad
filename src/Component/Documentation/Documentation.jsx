@@ -1,27 +1,57 @@
 import React from 'react';
-import Navigation from '../Shared/Navigation/Navigation';
-import plusIcon from '../Assets/landingPage/plusIcon.png';
-import connect from '../Assets/landingPage/connect.jpg';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Form, FormControl, Nav, Navbar, Row } from 'react-bootstrap';
 import docImage from '../Assets/documentation/docMoney.png';
 import nextArrow from '../Assets/documentation/nextIcon.png';
 import './Documentation.css';
+import DocNavigation from '../Shared/DocNavigation/DocNavigation';
 const Documentation = () => {
     return (
         <div className='documentation-cover'>
-            <div className='banerNav'>
+            <div className='DocbanerNav'>
                 <div>
-                    <Navigation />
+                    <DocNavigation />
                 </div>
-                <div className='top-two-button'>
-                    <div className='topButtonOne'>
-                        <button><img src={plusIcon} alt="" />
-                            Create New</button>
+                <div className='docTopNav'>
+                    {/* <Navbar bg="light" expand="lg">
+                        <Container fluid>
+                            <Navbar.Brand href="#"></Navbar.Brand>
+                            <Navbar.Toggle aria-controls="navbarScroll" />
+                            <Navbar.Collapse id="navbarScroll">
+                            <Nav.Link href="#action1">User Guide</Nav.Link>
+                            <Nav.Link href="#action1">Admin Guide</Nav.Link>
+                            <Nav.Link href="#action1">API Docs</Nav.Link>
+                            <Nav.Link href="#action1">release Notes</Nav.Link>
+                                <div>
+                                    <a href="">User Guide</a>
+                                    <a href="">Admin Guide</a>
+                                    <a href="">API Docs</a>
+                                    <a href="">release Notes</a>
+                                </div>
+                                <Form className="d-flex">
+                                    <div class="TopDocSearch">
+                                        <i class="fas fa-search"></i><input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                                    </div>
+                                </Form>
+                            </Navbar.Collapse>
+                        </Container>
+                    </Navbar> */}
+
+
+
+
+                    <div>
+                        <a href="">User Guide</a>
+                        <a href="">Admin Guide</a>
+                        <a href="">API Docs</a>
+                        <a href="">release Notes</a>
                     </div>
-                    <div className='topButtonTwo'>
-                        <button><img src={connect} alt="" />Connect</button>
+                    <div>
+                        <div class="TopDocSearch">
+                            <i class="fas fa-search"></i><input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        </div>
                     </div>
                 </div>
+
             </div>
             <div>
                 <Row className='text-white p-0 m-0'>
@@ -55,9 +85,9 @@ const Documentation = () => {
                     <Col className='col-12 col-md-5'>
                         <div className='doc-img-area'>
                             <div>
-                                <img src={docImage} alt="" />
+                                <img src={docImage} alt="" className='img-fluid' />
                             </div>
-                            <div className='docButton pb-4'>
+                            <div className='docButton'>
                                 <button>
                                     <div className='btnInsideText'>
                                         <div>
