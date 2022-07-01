@@ -3,7 +3,7 @@ import Navigation from '../../Shared/Navigation/Navigation';
 import plusIcon from '../../Assets/landingPage/plusIcon.png';
 import connect from '../../Assets/landingPage/connect.jpg';
 import LeaderBoardData from '../LeaderBoardData/LeaderBoardData';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 const LeaderBoard = () => {
     const [leaderData, setLeaderData] = useState([]);
 
@@ -14,7 +14,10 @@ const LeaderBoard = () => {
     })
     return (
         <div>
-            <div className='banerNav'>
+           <Row className="m-0">
+               <Col className="col-md-2 col-0"></Col>
+               <Col className='col-md-10 col-12'>
+               <div className='banerNav'>
                 <div>
                     <Navigation />
                 </div>
@@ -28,6 +31,7 @@ const LeaderBoard = () => {
                     </div>
                 </div>
             </div>
+
             <div className='leaderBoardPage'>
                 <div className='pt-5 pb-5 text-white'>
                     <h1>Leaderboard</h1>
@@ -42,6 +46,8 @@ const LeaderBoard = () => {
                </Container>
                
             </div>
+               </Col>
+           </Row>
         </div>
     );
 };

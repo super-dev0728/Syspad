@@ -166,6 +166,8 @@ border-radius:20px;
 }
 .day-counter{
     margin-right:2.5%;
+    /* display: flex;
+    justify-content: space-be; */
 }
 .timer li{
     display:flex;
@@ -174,6 +176,7 @@ border-radius:20px;
     justify-content: center;
    background-color: #0751A8;
    height: 80px;
-   width: 80px;
+   width: 50%;
    border-radius: 10px;
+   margin-left: 10px;
 }

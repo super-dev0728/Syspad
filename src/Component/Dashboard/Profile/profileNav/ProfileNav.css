@@ -28,9 +28,9 @@
 }
 .personal-data-btn:focus{
   background-color:#00ADDB ;
-  padding: 8px 20px;
+  padding: 10px 20px;
   padding-bottom: 10px;
-  border-radius: 20px;
+  border-radius: 13px;
   color: #FFF;
   width:33.33%;
 }

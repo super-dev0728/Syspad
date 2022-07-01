@@ -46,7 +46,7 @@ const Profile = () => {
 
                             {/* ==============Profile routing=========== */}
                             <ProfileNav/>
-                            <Outlet />
+                            <Outlet/>
                             
                         </div>
                         {/*========== profile component//==== */}

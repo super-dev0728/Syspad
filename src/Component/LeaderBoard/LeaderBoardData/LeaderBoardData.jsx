@@ -1,10 +1,10 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import image from '../../Assets/leaderBoard/three.png';
+// import image from '../../Assets/leaderBoard/three.png';
 import { Link } from 'react-router-dom';
 import './LeaderBoardData.css';
 const LeaderBoardData = (props) => {
-    const { id, name, listingTime, raised } = props.allData;
+    const { id, name, listingTime, raised,image } = props.allData;
     return (
         <div>
 
@@ -19,10 +19,13 @@ const LeaderBoardData = (props) => {
                     <p>{listingTime}</p>
 
                 </Col>
-                <Col className='col-12 col-md-3 raised'>
-                    <p>Raised: {raised}</p>
+                <Col className='col-12 col-md-4 raised'>
+                    <p><span style={{
+                        fontSize:'16px',
+                        fontWeight:'300'
+                    }}>Raised:</span> {raised}</p>
                 </Col>
-                <Col className='col-12 col-md-3 viewDetailButton'>
+                <Col className='col-12 col-md-2 viewDetailButton'>
                     <Link to='/legionnetTwo'>
                         <button>View Detail</button>
                     </Link>

@@ -82,3 +82,17 @@
     width: 270px;
   }
 }
+
+.wallet-modal .col-6 {
+  text-align: center;
+  cursor: pointer;
+}
+
+.wallet-modal .col-6:hover {
+  border-right: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+}
+
+.wallet-modal .row {
+  margin-bottom: 20px;
+}

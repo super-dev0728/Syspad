@@ -12,10 +12,12 @@ const DocNavigation = () => {
             <nav role="navigation">
                 <div id="menuToggle">
 
-                    <input type="checkbox" />
+                    <input className='manu-check-btn' type="checkbox" defaultChecked />
+                    <div className='span'>
                     <span></span>
                     <span></span>
                     <span></span>
+                    </div>
 
 
 

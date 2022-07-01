@@ -21,7 +21,12 @@ import { Link } from 'react-router-dom';
 const LaunchPadList = () => {
     return (
         <div>
-            <div className='banerNav'>
+           <Row className="m-0">
+               <Col className="col-0 col-md-2 ">
+
+               </Col>
+               <Col className="col-12 col-md-10 ">
+                    <div className='banerNav'>
                 <div>
                     <Navigation />
                 </div>
@@ -91,6 +96,8 @@ const LaunchPadList = () => {
                     </Row>
                 </div>
             </div>
+               </Col>
+           </Row>
         </div>
     );
 };

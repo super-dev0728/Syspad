@@ -5,6 +5,7 @@ import connect from '../../Assets/landingPage/connect.jpg';
 import legionNetLogo from '../../Assets/legionNetwork/legionNetLogo.png';
 import { Col, ProgressBar, Row } from 'react-bootstrap';
 import { Cell, Pie, PieChart } from 'recharts';
+import PreSaleTime from '../../Shared/PreSaleTimer/PreSaleTime';
 
 const LegionNetTwo = () => {
     const data = [
@@ -27,7 +28,11 @@ const LegionNetTwo = () => {
         };
 
     return (
-        <div className='LegionNetWork'>
+     <div>
+         <Row className='m-0'>
+             <Col className="col-0 col-md-2"></Col>
+             <Col className="col-12 col-md-10">
+             <div className='LegionNetWork'>
             <div className='banerNav'>
                 <div>
                     <Navigation />
@@ -54,7 +59,7 @@ const LegionNetTwo = () => {
                                 <div className='legionNetText'>
                                     <p>Token Name</p>
                                     <h3>Legion Network</h3>
-                                    <small>Legion Network is a project for Ethereum lovers. $LegionNetwork allows crypto investors to earn regular dividends just by holding $LegionNetwork in their wallet. <br /> Earn by just holding $LegionNetwork!</small>
+                                    <small>Legion Network is a project for Ethereum lovers. $LegionNetwork allows crypto investors to earn regular dividends just by holding $LegionNetwork in their wallet. Earn by just holding $LegionNetwork!</small>
                                 </div>
                             </div>
                         </Col>
@@ -80,7 +85,7 @@ const LegionNetTwo = () => {
 
 
             <div className=' backGroundColor'>
-                <Row className='m-0 mt-2 mt-md-4 mx-md-5'>
+                <Row className='m-0 mt-1 mt-md-4 mx-md-5'>
                     <Col className='col-12 col-md-8'>
                         <div className='detailsArea p-3 p-md-4'>
                             <h4>Details</h4>
@@ -217,19 +222,19 @@ const LegionNetTwo = () => {
                             <div className='chartAllColor'>
                                 <div className='chartColorOne'>
                                     <p></p>
-                                    <h6 className='mx-2'>Presale</h6>
+                                    <h6 className='mx-1'>Presale</h6>
                                 </div>
                                 <div className='chartColorTwo'>
                                     <p></p>
-                                    <h6 className='mx-2'>Liquiditiy</h6>
+                                    <h6 className='mx-1'>Liquiditiy</h6>
                                 </div>
                                 <div className='chartColorThree'>
                                     <p></p>
-                                    <h6 className='mx-2'>Team Vesting</h6>
+                                    <h6 className='mx-1'>Team Vesting</h6>
                                 </div>
                                 <div className='chartColorFour'>
                                     <p></p>
-                                    <h6 className='mx-2'>Unlocked</h6>
+                                    <h6 className='mx-1'>Unlocked</h6>
                                 </div>
                             </div>
                         </div>
@@ -240,14 +245,7 @@ const LegionNetTwo = () => {
                         <div className='detailsArea  p-4 extraTop' >
                             <h4>Presale Starts In</h4>
                             <br />
-                            <div className='day-counter'>
-                                <ul className='timer NewColorForTime fs-3'>
-                                    <li><span id="days"></span>00</li>
-                                    <li><span id="hours"></span>00</li>
-                                    <li><span id="minutes"></span>00</li>
-                                    <li><span id="seconds"></span>00</li>
-                                </ul>
-                            </div>
+                            <PreSaleTime></PreSaleTime>
                             <div>
                                 <ProgressBar now={40} className="progressBarLegion mt-4" />
                                 <div className='textOfProgress'>
@@ -255,6 +253,7 @@ const LegionNetTwo = () => {
                                     <p>5,00,00,000</p>
                                 </div>
                             </div>
+                    
                         </div>
                         <div className='detailsArea p-4 mt-3'>
                             <div className='lorem-ipsum p-2'>
@@ -273,8 +272,10 @@ const LegionNetTwo = () => {
 
 
         </div>
+             </Col>
+         </Row>
+     </div>
     );
 };
-
 
 export default LegionNetTwo;

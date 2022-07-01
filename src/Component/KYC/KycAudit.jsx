@@ -8,7 +8,11 @@ import './KycAudit.css';
 
 const KycAudit = () => {
     return (
-        <div className='kycBackgroundImage'>
+        <div>
+            <Row className='m-0'>
+                <Col className="col-0 col-md-2"></Col>
+                <Col className='col-12 col-md-10'>
+                <div className='kycBackgroundImage'>
             <div className='banerNav'>
                 <div>
                     <Navigation />
@@ -33,7 +37,8 @@ const KycAudit = () => {
                <Container>
                <Row className='p-0 m-0'>
                     
-                    <Col className='col-12 col-md-7 text-white '>
+                    <Col className='col-12 col-md-1'></Col>
+                    <Col className='col-12 col-md-6 text-white '>
                         <div className='kyc-text'>
                             <h5>The KYC process aims to rid our platform of scams and rugpulls by acting as a deterrent for dubious devs. If any of the KYCed project’s team members scams investors: </h5>
                             <p>As you are aware, we take the security of our investors very seriously at SYSPAD. We despise scams and rugpulls, so we've designed a number of features and tools to help you decide whether or not a presale is worth investing in. You may have noticed that certain projects have a KYC badge next to their names when you go through the list of current and historical presales. This short post will clarify what that implies and what it entails for all parties involved.</p>
@@ -50,6 +55,10 @@ const KycAudit = () => {
 </Row>
                </Container>
             </div>
+        </div>
+                
+                </Col>
+            </Row>
         </div>
     );
 };

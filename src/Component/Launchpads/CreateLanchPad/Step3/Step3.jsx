@@ -2,13 +2,17 @@ import { Box, Grid} from '@mui/material';
 import plusIcon from '../../../Assets/landingPage/plusIcon.png'
 import connect from '../../../Assets/landingPage/connect.jpg'
 import React from 'react';
-import { Container,} from 'react-bootstrap';
+import { Col, Container, Row,} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Navigation from '../../../Shared/Navigation/Navigation';
 
 const Step3 = () => {
     return (
-        <div className='create-launch'>
+       <div>
+           <Row className="m-0">
+               <Col className="col-0 col-md-2"></Col>
+               <Col className="col-12 col-md-10">
+               <div className='create-launch'>
             {/* --------------nav bar */}
             <div className='banerNav'>
                 <div>
@@ -37,7 +41,7 @@ const Step3 = () => {
                     <span className='launchNum'>01</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
+                            <small style={{ fontSize:'10px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -46,7 +50,7 @@ const Step3 = () => {
                     <span className='launchNum'>02</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
+                            <small style={{ fontSize:'10px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -55,7 +59,7 @@ const Step3 = () => {
                     <span className='launchNum'>03</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
+                            <small style={{ fontSize:'10px' }}>Enter the token address and verify</small>
                     </div>
                     <span className='dot-line ms-2'></span>  
                  </div>
@@ -64,7 +68,7 @@ const Step3 = () => {
                     <span className='launchNum in-active'>04</span>
                      <div className='lavel-text'>
                             <h4>Verify Token</h4>
-                            <small style={{ fontSize:'12px' }}>Enter the token address and verify</small>
+                            <small style={{ fontSize:'10px' }}>Enter the token address and verify</small>
                     </div>
                     {/* <span className='dot-line ms-2'></span>   */}
                  </div>
@@ -127,6 +131,9 @@ const Step3 = () => {
       
   </Container> 
         </div>
+               </Col>
+           </Row>
+       </div>
     );
 };
 

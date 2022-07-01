@@ -14,11 +14,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-weight: 700;
-    font-size: 50px;
+    font-weight: 600;
+    font-size: 40px;
     /* line-height: 77px; */
     text-align: center;
     letter-spacing: -0.019em;
+}
+.raised p{
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .allData {
@@ -27,20 +31,36 @@
     border-radius: 10px;
     padding-top: 20px;
     text-align: left;
+    width: 88%;
+    margin-left: 7%;
 }
 .dataStyle {  
     padding: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .id-image {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-}
+    justify-content: space-evenly;
 
+}
+.id-image img{
+    width: 20%;
+}
 
 .name-time {
     text-align: left;
+}
+.name-time h6{
+    font-size: 18px;
+    font-weight: 400;
+}
+.name-time p{
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .viewDetailButton button {

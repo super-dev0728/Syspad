@@ -9,9 +9,11 @@ import scroll from '../../Assets/Dashboard/scroll.png'
 import token from '../../Assets/Dashboard/token.png';
 import './DashboardMain.css';
 import DashboardFoter from '../DashboardShared/DashboardFoter/DashboardFoter';
+import DayCounter from '../../Shared/DayCounter/DayCounter';
 
 
 const DashboardMain = () => {
+   
     return (
         <div className='dashboard-main text-white'>
 
@@ -139,14 +141,7 @@ const DashboardMain = () => {
                                     <img src={scroll} alt="" className='scrollBar' />
                                 </div>
                                 <p className='sels-end py-md-2'>SALES END IN</p>
-                                <div className='day-counter'>
-                                    <ul className='timer'>
-                                        <li><span id="days"></span>DAY</li>
-                                        <li><span id="hours"></span>HOUR</li>
-                                        <li><span id="minutes"></span>MIN</li>
-                                        <li><span id="seconds"></span>SEC</li>
-                                    </ul>
-                                </div>
+                                <DayCounter></DayCounter>
 
                             </div>
                         </div>

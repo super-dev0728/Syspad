@@ -18,7 +18,9 @@
 .lunch-header-wraper{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: 4%;
 }
 @media only screen and (max-width:800px){
     .lunch-header-wraper{
@@ -39,19 +41,22 @@
 .lavel-text{
     line-height: .5;
 }
+.lavel-text h4{
+    font-size: 22px;
+}
 .dot-line{
-    width: 80px;
+    width: 30px;
     border-top: 2px dashed #00ADDB;
 }
 .launchNum{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     background: linear-gradient(164.72deg, #00ADDB -17.94%, #4747FF 120.73%);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     margin-right: 5px;
 }
@@ -72,6 +77,7 @@
     padding: 5%;
     margin: 20px 0;
     border-radius: 20px;
+    margin-left: 3%;
 }
 .field-100{
     width: 100% !important;

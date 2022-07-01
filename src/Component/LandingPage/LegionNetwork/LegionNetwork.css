@@ -1,226 +1,293 @@
+.LegionNetWork {
+  color: white;
+  background-image: url(../../Assets/LanchPads/createLunchpadBan.png);
+  background-color: #002147;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  background-position: center;
+}
 
-.LegionNetWork{
-color: white;
-background-image: url(../../Assets/LanchPads/createLunchpadBan.png);
-background-color: #002147;
-/* background-repeat: no-repeat; */
-background-size: contain;
-background-position: center;
-}
-.name-date-allocation{
-    background-color: #004FAB;
-    text-align: left;
+.name-date-allocation {
+  background-color: #004fab;
+  text-align: left;
   border-radius: 16px;
+  width: 93%;
+  margin-left: 44px !important;
 }
-.legion-Net{
-    display: flex;
+
+.legion-Net {
+  display: flex;
 }
-.legionNetText{
-    margin-left: 5%;
+
+.legionNetText {
+  margin-left: 5%;
 }
-.legionNetText p{
-    font-size: 20px;
-    margin-bottom: 0px;
-    font-weight:300 !important;
-    
+
+.legionNetText p {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-weight: 300 !important;
 }
-.legionNetText h3{
-    font-weight: 600;
-    font-size: 36px;
+
+.legionNetText h3 {
+  font-weight: 600;
+  font-size: 30px;
 }
-.legionNetText h5{
-    font-weight: 600;
-    font-size: 24px;
+
+.legionNetText h5 {
+  font-weight: 600;
+  font-size: 22px;
 }
-.legionNetText small{
-font-weight: 300;
-    font-size: 13px;
+
+.legionNetText small {
+  font-weight: 300;
+  font-size: 11px;
 }
-.LegionNetImage img{
-    height:80px;
-    width:160px;
+
+.LegionNetImage img {
+  height: 70px;
+  width: 160px;
 }
 
 /* //part two // */
 
-@media only screen and (max-width:768px){
-    .extraTop{
-      margin-top: 5% !important;
-           
-    }
-    .chartImage{
-        margin-left: 17% !important;
-    }
-    .LegionNetImage img{
-        height: 50px;
-    }
+@media only screen and (max-width: 768px) {
+  .extraTop {
+    margin-top: 5% !important;
+  }
+
+  .chartImage {
+    margin-left: 17% !important;
+  }
+
+  .LegionNetImage img {
+    height: 50px;
+  }
 }
-.NewColorForTime li{
-    background-color: #002147;
+
+.NewColorForTime li {
+  width: 86px;
+  margin-left: 20px;
+  background-color: #002147;
 }
-.backGroundColor{
-    background-color: #052340;
-   
-    padding-bottom: 8%;
-       
+
+.timerForDoc {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: -14%;
 }
-.detailsArea{
-    text-align: left;
-    margin-top: -9%;
-    background-color: #002A5B;
-    border-radius: 16px;
- 
+
+.timerForDoc span {
+  font-size: 30px;
+  font-weight: 700;
 }
-.detailsArea h4{
-    font-weight: 600;
-    font-size: 20px;
+
+.timerForDoc li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  /* width: 100px !important; */
+  border-radius: 10px;
+  margin-left: 10px;
 }
+
+.backGroundColor {
+  background-color: #052340;
+
+  padding-bottom: 8%;
+}
+
+.detailsArea {
+  text-align: left;
+  margin-top: -8%;
+  background-color: #002a5b;
+  border-radius: 16px;
+  /* width:95%; */
+}
+
+.detailsArea h4 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .progress-bar {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #0d6efd;
-    /* transition: width .6s ease; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #0d6efd;
+  /* transition: width .6s ease; */
 }
+
 .progress-bar {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
-    overflow: hidden;
-    color: #00ADDB !important;
-    text-align: center;
-    white-space: nowrap;
-    background-color: #00ADDB;
-    /* transition: width .6s ease; */
-    
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  overflow: hidden;
+  color: #00addb !important;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #00addb;
+  /* transition: width .6s ease; */
 }
+
 .progress {
-    
-    
-    display: flex;
-    height: 1rem;
-    overflow: hidden;
-    font-size: .75rem;
-    background-color: #e9ecef;
-    border-radius: 0.25rem;
-    height: 8px;
-   
-}
-.extraTop{
-    margin-top: -75px;
-}
-.lorem-ipsum{
-    display: flex;
-    justify-content: space-between;
-    
-}
-.lorem-ipsum small{
-    font-size: 14px;
-    font-weight: 300;
-}
-.lorem-ipsum h6{
-    font-size: 16px;
-    font-weight: 600;
-}
-.textOfProgress{
-    display: flex;
-    justify-content: space-between;
-    width: 97%;
-    margin-left: 7px;
-    font-size: 13px;
-    font-weight: 600;
-}
-.statusIncoming{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-}
-.legionAmount input{
-    width: 100%;
-    border-radius: 50px;
-    background-color: transparent;
-    border: 1px solid #00ADDB;
-    border-bottom: 1px solid #0d6ddb;
-}
-.LegionbuyNow button{
-    width: 100%;
-    background: linear-gradient(164.72deg, #00ADDB -17.94%, #4747fff3 120.73%);
-    border-radius: 50px;
-    padding: 5px 20px 5px 20px !important;
-    border: none;
-    color: white;
-}
-.chartImage{
-   margin-left: 33%;
-   margin-bottom: 3%;
-}
-.chartAllColor{
-    display: flex;
-    justify-content:center;
-    
-}
-.chartColorOne{
-    display: flex;
-    margin-left: 3%;
-    /* align-items: center; */
-}
-.chartColorOne p{
-border: 1px solid #312DFF;
-background-color: #312DFF;
-color: #312DFF;
-border-radius: 5px;
-height: 10px;
-width: 20px;
-margin-top: 5px;
-
+  display: flex;
+  height: 1rem;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  height: 8px;
 }
 
-.chartColorTwo{
-    display: flex;
-    margin-left: 3%;
-    /* align-items: center; */
+.extraTop {
+  margin-top: -78px;
 }
-.chartColorTwo p{
-border: 1px solid #30A8EC;
-background-color: #30A8EC;
-color: #30A8EC;
-border-radius: 5px;
-height: 10px;
-width: 20px;
-margin-top: 5px;
 
+.lorem-ipsum {
+  display: flex;
+  justify-content: space-between;
 }
-.chartColorThree{
-    display: flex;
-    margin-left: 3%;
-    /* align-items: center; */
-}
-.chartColorThree p{
-border: 1px solid #0033B6;
-background-color: #0033B6;
-color: #0033B6;
-border-radius: 5px;
-height: 10px;
-width: 20px;
-margin-top: 5px;
 
+.lorem-ipsum small {
+  font-size: 14px;
+  font-weight: 300;
 }
-.chartColorFour{
-    display: flex;
-    margin-left: 3%;
-    /* align-items: center; */
-}
-.chartColorFour p{
-border: 1px solid #003079;
-background-color: #003079;
-color: #003079;
-border-radius: 5px;
-height: 10px;
-width: 20px;
-margin-top: 5px;
 
+.lorem-ipsum h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.textOfProgress {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin-left: 7px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.statusIncoming {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.legionAmount input {
+  width: 100%;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid #00addb;
+  border-bottom: 1px solid #0d6ddb;
+}
+
+.LegionbuyNow button {
+  width: 100%;
+  background: linear-gradient(164.72deg, #00addb -17.94%, #4747fff3 120.73%);
+  border-radius: 50px;
+  padding: 5px 20px 5px 20px !important;
+  border: none;
+  color: white;
+}
+
+.LegionbuyNow button.success {
+  background: #157347 !important;
+  border-color: #146c43 !important;
+}
+
+.LegionbuyNow button.danger {
+  background: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+.LegionbuyNow button.warning {
+  background: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.chartImage {
+  margin-left: 33%;
+  margin-bottom: 3%;
+}
+
+.chartAllColor {
+  display: flex;
+  justify-content: center;
+}
+.chartAllColor h6 {
+  font-size: 14px;
+}
+.chartColorOne {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.chartColorOne p {
+  border: 1px solid #312dff;
+  background-color: #312dff;
+  color: #312dff;
+  border-radius: 5px;
+  height: 10px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.chartColorTwo {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.chartColorTwo p {
+  border: 1px solid #30a8ec;
+  background-color: #30a8ec;
+  color: #30a8ec;
+  border-radius: 5px;
+  height: 10px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.chartColorThree {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.chartColorThree p {
+  border: 1px solid #0033b6;
+  background-color: #0033b6;
+  color: #0033b6;
+  border-radius: 5px;
+  height: 10px;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.chartColorFour {
+  display: flex;
+  margin-left: 3%;
+  align-items: center;
+}
+
+.chartColorFour p {
+  border: 1px solid #003079;
+  background-color: #003079;
+  color: #003079;
+  border-radius: 5px;
+  height: 10px;
+  width: 20px;
+  margin-top: 5px;
 }

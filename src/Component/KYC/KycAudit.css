@@ -9,6 +9,7 @@
     /* height: 100vh; */
     height: auto;
     padding-bottom: 20px;
+    width: 100%;
 
 }
 .full-kyc-area {
@@ -62,4 +63,10 @@ border-radius: 20px;
             width: 100%;
             max-width: 100%;
          }
+}
+.row>* {
+   
+    padding-right: 0px !important;
+    /* padding-left: 0px !important; */
+    margin-top: var(--bs-gutter-y);
 }
